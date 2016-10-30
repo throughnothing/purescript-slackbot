@@ -39,9 +39,3 @@ exports._listen = function (client) {
     }
   }
 }
-
-exports._log = function(x) {
-  return function() {
-    console.log(x);
-  }
-}
